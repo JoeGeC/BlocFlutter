@@ -45,9 +45,9 @@ extension UrlString on PersonUrl {
   String get urlString {
     switch (this){
       case PersonUrl.persons1:
-        return 'http://192.168.1.103:4000/persons1';
+        return 'http://127.0.0.1:4000/persons1';
       case PersonUrl.persons2:
-        return 'http://192.168.1.103:4000/persons2';
+        return 'http://127.0.0.1:4000/persons2';
     }
   }
 }
